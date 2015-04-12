@@ -1,0 +1,18 @@
+{
+  "name": "atom-shell-breakpoint",
+  "description": "breakpoint and open devtools in atom-shell",
+  "keywords": "atom-shell testing breakpoint",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jameskyburz/atom-shell-breakpoint"
+  },
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "main": "index.js",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "license": "MIT"
+}
