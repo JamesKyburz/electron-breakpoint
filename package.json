@@ -1,10 +1,10 @@
 {
-  "name": "atom-shell-breakpoint",
-  "description": "breakpoint and open devtools in atom-shell",
-  "keywords": "atom-shell testing breakpoint",
+  "name": "electron-breakpoint",
+  "description": "breakpoint and open devtools in electron",
+  "keywords": "electron testing breakpoint atom-shell",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jameskyburz/atom-shell-breakpoint"
+    "url": "git://github.com/jameskyburz/electron-breakpoint"
   },
   "author": {
     "name": "James Kyburz",

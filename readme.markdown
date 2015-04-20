@@ -1,18 +1,18 @@
-# atom-shell-breakpoint
+# electron-breakpoint
 
-Make the atom-shell window visible, open dev tools and break.
+Make the electron window visible, open dev tools and break.
 
 # Install
 
-npm install atom-shell-breakpoint
+npm install electron-breakpoint
 
 # Usage
 
-Use in an already existing atom-shell window
+Use in an already existing electron window
 
-Can be used with a testing tool like [tape-run-atom-shell](https://github.com/JamesKyburz/tape-run-atom-shell)
+Can be used with a testing tool like [tape-run-electron](https://github.com/JamesKyburz/tape-run-electron)
 
 ``` js
-var breakpoint = require('atom-shell-breakpoint')
+var breakpoint = require('electron-breakpoint')
 breakpoint()
 ```
