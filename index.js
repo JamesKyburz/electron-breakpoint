@@ -1,7 +1,13 @@
 module.exports = breakpoint
 
 function breakpoint () {
-  var remote = require('' + 'remote') // prevent static analysis like browserify
+  // prevent static analysis like browserify
+  var remote;
+  try {
+    remote = require('' + 'electron').remote;
+  } catch (e) {
+    remote = require('' + 'remote');
+  }
   var w = remote.getCurrentWindow()
   w.show()
   w.openDevTools()
