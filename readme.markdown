@@ -1,5 +1,7 @@
 # electron-breakpoint
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/JamesKyburz/electron-breakpoint.svg)](https://greenkeeper.io/)
+
 Make the electron window visible, open dev tools and break.
 
 # Install
